@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { motion, useScroll, useTransform, AnimatePresence } from "framer-motion";
+import { useScroll, useTransform, AnimatePresence } from "framer-motion";
 import "./App.css";
 
 const NAV_LINKS = ["Home", "About", "Programs", "Contact"];
@@ -246,7 +246,7 @@ function Footer() {
             <button key={l} className="footer-link" onClick={() => document.getElementById(l.toLowerCase())?.scrollIntoView({ behavior: "smooth" })}>{l}</button>
           ))}
         </div>
-        <p className="footer__copy">© 2024 Hope Fitness. All rights reserved.</p>
+        <p className="footer__copy">© 2026 Abhay Sharma. All rights reserved.</p>
       </div>
     </footer>
   );
