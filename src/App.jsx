@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useScroll, useTransform, AnimatePresence } from "framer-motion";
+import { motion, useScroll, useTransform, AnimatePresence } from "framer-motion";
 import "./App.css";
 
 const NAV_LINKS = ["Home", "About", "Programs", "Contact"];
