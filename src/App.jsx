@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { motion, useScroll, useTransform, AnimatePresence } from "framer-motion";
+import { Analytics } from "@vercel/analytics/react";
 import "./App.css";
 
 const NAV_LINKS = ["Home", "About", "Programs", "Contact"];
@@ -263,6 +264,7 @@ export default function App() {
       <Motto />
       <Contact />
       <Footer />
+      <Analytics />
     </div>
   );
 }
